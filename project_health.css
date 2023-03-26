@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #ffedf5;
+    background-size: cover;
+}
+
+.bg-container_1 {
+    background-color: #ffedf5;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-image {
+    height: 80px;
+}
+
+.navbar-text {
+    color: black;
+}
+
+.ambu-image {
+    border-radius: 6px;
+
+}
+
+.custom-button_1 {
+    color: white;
+    background-color: orange;
+    width: 160px;
+    height: 90px;
+    border-width: 0;
+    border-radius: 36px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.custom-button_2 {
+    color: white;
+    background-color: red;
+    width: 160px;
+    height: 90px;
+    border-width: 0;
+    border-radius: 36px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.custom-button_3 {
+    font-size: 12px;
+    color: white;
+    background-color: green;
+    width: 160px;
+    height: 90px;
+    border-width: 0;
+    border-radius: 36px;
+    margin-right: 10px;
+}
+
+.book-app-button {
+    color: white;
+    font-family: "Roboto";
+}
+
+.button-emergency {
+    color: white;
+    padding: 10px;
+    animation: glowing_1 900ms infinite;
+}
+
+@keyframes glowing_1 {
+    0% {
+        background-color: red;
+        box-shadow: 0 0 5px red;
+    }
+
+    50% {
+        background-color: red;
+        box-shadow: 0 0 20px red;
+    }
+
+    100% {
+        background-color: red;
+        box-shadow: 0 0 5px red;
+    }
+}
+
+marquee {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #ffff00;
+
+}
+
+.navbar a:hover {
+    text-decoration: underline #8762f5;
+}
+
+.marquee-container {
+    background-color: black;
+}
+
+.backdrop {
+    background-image: url("https://thumbs.dreamstime.com/z/portrait-female-doctor-standing-against-isolated-white-background-woman-142983747.jpg");
+    height: 50%;
+    width: 100%;
+}
+
+.locality {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-container {
+    background-color: #ffedf5;
+    border-radius: 10px;
+}
+
+.video-container-heading {
+    color: black;
+    padding-left: 17px;
+    font-size: 23PX;
+}
+
+.video-item {
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.services-container-heading {
+    color: black;
+    padding-left: 17px;
+    font-size: 23PX;
+}
+
+.services-icon {
+    font-size: 40px;
+}
+
+.services-heading {
+    font-size: 20px;
+}
+
+.follow-us-section {
+    background-color: #ffedf5;
+}
+
+
+.follow-us-section-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: black;
+    font-size: 35px;
+}
+
+.emergency-input {
+    outline: none;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.proceed-button {
+    border-radius: 8px;
+    border-style: none;
+    padding: 6px;
+}
+
+.back-button {
+    height: 40px;
+    width: 60px;
+}
+
+.table-style {
+    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+}
